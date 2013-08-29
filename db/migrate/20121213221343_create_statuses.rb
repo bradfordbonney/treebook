@@ -4,7 +4,7 @@ class CreateStatuses < ActiveRecord::Migration
       t.string :name
       t.text :content
 
-      t.timestamps
+      t.timestamps :time
     end
   end
 end
